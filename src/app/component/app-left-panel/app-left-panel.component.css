@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .nice-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nice-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .nice-list li:hover {
+    background-color: #e0e0e0;
+  }
+  

@@ -1,0 +1,23 @@
+<table class="nice-table">
+    <thead>
+      <tr>
+        <th>Employee Id</th>
+        <th>Birth date</th>
+        <th>First name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Hire date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of employees">        
+        <td>{{ e.id }}</td>
+        <td>{{ e.birtDate | date: 'yyyy-MM-dd'  }}</td>
+        <td>{{ e.firstName }}</td>
+        <td>{{ e.lastName }}</td>
+        <td>{{ e.gender }}</td>
+        <td>{{ e.hireDate | date: 'yyyy-MM-dd' }}</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>

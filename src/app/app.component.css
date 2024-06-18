@@ -1,0 +1,25 @@
+/* styles.css or your component-specific styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    display: flex;
+  }
+  
+  .left-panel {
+    flex-basis: 200px; /* Width of the left panel */
+    /* background-color: #f0f0f0;  Example background color */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px; /* Example padding */
+    /* background-color: rgb(246, 240, 240)*/
+  }
+  
+  /* You can add more specific styling for header, footer, and other components as needed */
+  

@@ -1,0 +1,13 @@
+<!-- app.component.html -->
+<div class="container">
+  <app-header></app-header>
+  <div class="content-wrapper">
+    <div class="left-panel">
+      <app-left-panel></app-left-panel>
+    </div>
+    <div class="content">
+      <router-outlet></router-outlet> <!-- Content of other components will be loaded here -->
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

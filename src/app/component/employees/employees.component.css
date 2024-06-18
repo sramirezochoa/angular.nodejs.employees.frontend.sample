@@ -1,0 +1,23 @@
+.nice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .nice-table th, .nice-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .nice-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .nice-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .nice-table tbody tr:hover {
+    background-color: #e5e5e5;
+  }
